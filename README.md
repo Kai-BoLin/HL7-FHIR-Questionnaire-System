@@ -24,3 +24,23 @@ A Vue.js application for rendering FHIR Questionnaire Resources and submitting Q
 - FHIR Questionnaire Resource
 - REST API
 - Express Proxy Server
+
+
+## FHIR Resources
+
+This project demonstrates the following HL7 FHIR resources:
+
+- Questionnaire
+- QuestionnaireResponse
+
+### Workflow
+
+Questionnaire
+↓
+Render form in Vue.js
+↓
+User fills out the questionnaire
+↓
+Generate QuestionnaireResponse
+↓
+Submit to HAPI FHIR Server
